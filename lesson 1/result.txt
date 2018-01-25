@@ -1,0 +1,15 @@
+1.  а.) -  .wrapper{  ставь пробел после селектора и перед скобкой - это норма во всех стайлгайдах
+               б.) margin:auto; ставь пробел после двоеточие, потому что смю а:)
+2. img width="250" height="250" alt="photo" - так лучше не делать, потому что если картинка будет не квадратная, она будет выглядеть не красиво.
+При работе с картинками лучше оборачивать ее в блок и ему задавать либо только высоту, либо только ширину. Но по ситуациию
+3. .wrapper p, .wrapper h4, .wrapper h3, .wrapper ul li{
+   	width:500px;
+   	тут можно было все обернуть в блок (div, section) и задать ему ширину и выровнять по центру. Тогда не было бы такого страшного селектора. + не было бы вот этого margin-left:290px;
+
+4.  .wrapper ul li{
+    	width:500px; дубликация кода, было задано выше
+5. 	margin:auto;
+   	font:12px Verdana;
+   	margin-left:250px; использую сокрашенные свойства - https://developer.mozilla.org/ru/docs/Web/CSS/Shorthand_properties#Margin_and_Padding_Properties
+   	    	  	margin: auto 250px auto auto;
+6. Почитай про html5 теги -   https://www.w3schools.com/html/html5_new_elements.asp
