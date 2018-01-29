@@ -38,19 +38,13 @@ html {
 	border-right: 1px solid #C9C9C9;
 	line-height:18px;
 }
-
-
-
 .menu ul li:hover {
 background-color:black;
 }
-
 .menu__2 ul li:hover {
 	padding: 10px 25px 10px 40px;
 }
-
-
-.menu__2 ul li.for__border {
+.menu__2 ul:last-child {
 	border-bottom: 1px solid #C9C9C9;
 }
 .menu__2 ul  {
@@ -58,7 +52,6 @@ background-color:black;
 	width: 240px;	
 	float: left;
 }
-
 .image {
 	margin: 40px 48px; 
 	padding:46px 88px 48px 88px;
@@ -95,8 +88,10 @@ background-color:black;
 	width: 966px;
 }
 
-.footer li.copy {
-padding-left:250px;
-padding-right:0;
+.footer ul li:last-child {
+	padding-left:250px;
+	padding-right:0;
 }
-
+.footer ul li:last-child:hover{
+	text-decoration:none;
+}
