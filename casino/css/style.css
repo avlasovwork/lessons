@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration:none;
 }
 body{
     background-color: #16283C;
@@ -61,6 +62,10 @@ body{
     border-radius: 8px;
     box-shadow: 0 0 25px rgba(0,0,0,0.5);
     position: relative;
+    margin-bottom: 20px; 
+}
+.content__block:last-child{
+    margin-bottom:25px;
 }
 .content__left{
     width: 285px;
@@ -94,7 +99,13 @@ body{
     border-radius: 5px;
     border: 0;
     text-transform: uppercase;
+    box-shadow: inset 0px 15px 20px rgba(179, 0, 0, 0.5);
 }
+.content__left button:hover{
+    background-color: rgb(139, 2, 0);
+    box-shadow: inset 0px 15px 20px rgba(56, 0, 0, 0.5);
+}
+
 .content__center h1{
     color: white;
     font-size: 44px;
@@ -119,7 +130,6 @@ body{
     margin: 0;
     padding: 0 15px;
 }
-
 .content__center p{
     color: #8ba4c0;
     font-size: 14px;
@@ -145,7 +155,9 @@ body{
     font-size: 23px;
     font-family: "Panton black", "Arial", sans-serif;
     color: white;
+    box-shadow: inset 0px 5px 5px #0bdd58;
 }
+
 /* .content__plus ul li{
     text-align: left;
     font-size: 14px;
@@ -190,6 +202,21 @@ body{
     float: left;
     color: white;
 } */
+.content__table table{
+    width: 900px;
+    color: white;
+    text-align: left;
+    font-family: "Myriad Pro Regular", "Arial", sans-serif;
+    font-size: 18px;
+}
+.content__table table td{
+    font-size: 14px;
+    vertical-align: top;
+    width: 300px;
+}
+.content__table table tr th{
+    height: 30px;
+} 
 .footer ul li{
     display: inline;
     color: white;
@@ -209,17 +236,9 @@ body{
     font-family: "Open Sans Bold", "Arial", sans-serif;
     padding: 15px
 }
-
-.content__table table{
-    width: 900px;
+.footer ul li a:visited, .footer ul li a:link{
     color: white;
-    text-align: left;
-    font-family: "Myriad Pro Regular", "Arial", sans-serif;
-    font-size: 18px;
 }
-
-.content__table table td{
-    font-size: 14px;
-    vertical-align: top;
-    width: 300px;
+.footer ul li a:visited:hover, .footer ul li a:hover{
+    color: #E10907;
 }
